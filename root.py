@@ -10,6 +10,9 @@ from OptionMenu import OptionMenu
 from NameLabel import NameLabel
 from PictureLabel import PictureLabel
 from LineLabel import LineLabel
+from ClassLabel import ClassLabel
+from ClaimButton import ClaimButton
+from SummonButton import SummonButton
 
 #Create the main frame
 root = Tk()
@@ -26,6 +29,15 @@ name = NameLabel(root)
 
 #Creating the Servant image label
 picture = PictureLabel(root)
+
+#Creating the Servant class label
+servant_class = ClassLabel(root)
+
+#Creating the Claim button
+claim_button = ClaimButton(root)
+
+#Creating the Summon Button
+summon_button = SummonButton(root)
 
 #Creating the Servant summoning line label
 line = LineLabel(root)
