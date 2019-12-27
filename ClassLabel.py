@@ -10,7 +10,7 @@ from pathlib import Path
 from PIL import Image
 import PIL.ImageTk
 
-class PictureLabel():
+class ClassLabel():
     
     def __init__(self, root):
         
@@ -20,10 +20,10 @@ class PictureLabel():
         image = image.resize((100, 100), Image.ANTIALIAS)
         picture = PIL.ImageTk.PhotoImage(image)
         
-        self.label = Label(borderwidth = 1, relief = "raised", image = picture)
+        self.label = Label(borderwidth = 1, relief = "raised", image = picture, bg = "#CBCACA")
         self.label.image = picture #deals with wierd Tkinter garbage collection
         
-        self.label.place(height = 100, width = 100, x = 20, y = 70)
+        self.label.place(height = 100, width = 100, x = 80, y = 70)
         
     def change_pic(self, picture):
         print("TODO: Change label pic to new Servant picture.")
