@@ -10,6 +10,7 @@ from OptionMenu import OptionMenu
 from NameLabel import NameLabel
 from PictureLabel import PictureLabel
 from LineLabel import LineLabel
+from ClassLabel import ClassLabel
 
 #Create the main frame
 root = Tk()
@@ -26,6 +27,9 @@ name = NameLabel(root)
 
 #Creating the Servant image label
 picture = PictureLabel(root)
+
+#Creatin the Servant class label
+servant_class = ClassLabel(root)
 
 #Creating the Servant summoning line label
 line = LineLabel(root)
