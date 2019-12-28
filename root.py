@@ -13,6 +13,7 @@ from LineLabel import LineLabel
 from ClassLabel import ClassLabel
 from ClaimButton import ClaimButton
 from SummonButton import SummonButton
+from ConfigUtility import ConfigUtility
 
 #Create the main frame
 root = Tk()
@@ -33,14 +34,15 @@ picture = PictureLabel(root)
 #Creating the Servant class label
 servant_class = ClassLabel(root)
 
+#Creating the Servant summoning line label
+line = LineLabel(root)
+
 #Creating the Claim button
 claim_button = ClaimButton(root)
 
-#Creating the Summon Button
-summon_button = SummonButton(root)
 
-#Creating the Servant summoning line label
-line = LineLabel(root)
+#Creating the Summon Button
+summon_button = SummonButton(root, name, picture, servant_class, line, claim_button)
 
 #mainloop
 root.mainloop()

@@ -18,6 +18,5 @@ class LineLabel():
         
         self.label.place(height = 160, width = 760, x = 20, y = 430)
         
-    def change_text(self, name):
-        print("TODO: Changxe label text to new Servant name.")
-        self.label.config(text = name)
+    def change_text(self, line):
+        self.label.config(text = line)

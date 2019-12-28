@@ -18,5 +18,4 @@ class NameLabel():
         self.label.place(height = 50, width = 760, x = 20, y = 10)
         
     def change_text(self, name):
-        print("TODO: Changxe label text to new Servant name.")
         self.label.config(text = name)
