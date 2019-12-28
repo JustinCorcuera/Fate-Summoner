@@ -10,12 +10,12 @@ from tkinter import *
 class NameLabel():
     
     def __init__(self, root):
-        self.label = Label(root, text = "Jeanne Spam Alter Spam Santa Spam Lily",
+        self.label = Label(root, text = "Fate Summoner",
                       justify = "center", bg = "#CBCACA",
-                      font = ("Times", 24, "bold"), borderwidth = 1,
+                      font = ("Times", 14, "bold"), borderwidth = 1,
                       relief = "raised")
         
-        self.label.place(height = 50, width = 760, x = 20, y = 10)
+        self.label.place(height = 30, width = 250, x = 35, y = 376)
         
     def change_text(self, name):
         self.label.config(text = name)

@@ -17,13 +17,13 @@ class ClaimButton():
     
     def __init__(self, root):
         
-        #Creating background Label
-        self.label = Label(borderwidth = 1, relief = "raised", bg = "#CBCACA")      
-        self.label.place(height = 70, width = 160, x = 50, y = 320)
+#        Creating background Label
+#        self.label = Label(borderwidth = 1, relief = "raised", bg = "#CBCACA")      
+#        self.label.place(height = 70, width = 160, x = 440, y = 120)
         
         #Creating Claim Button
         self.button = Button(root, text = "Claim", command = lambda: self.claim())
-        self.button.place(height = 50, width = 140, x = 60, y = 330)
+        self.button.place(height = 50, width = 140, x = 450, y = 130)
 
     def current_name(self, name, utility):
         global servant
@@ -37,6 +37,6 @@ class ClaimButton():
         global servant
         claim_dict = util.claimed()
         
-        if servant != "" and claim_dict[servant] == False:  
+        if servant != "":  
             claim_dict[servant] = True
-            util.update_config()
+            util.update_config_claim(servant)

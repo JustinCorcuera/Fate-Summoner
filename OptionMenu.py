@@ -14,16 +14,22 @@ class OptionMenu():
         
         option_menu.add_command(label = "Edit Configuration", command = self.edit)
         option_menu.add_separator()
-        option_menu.add_command(label = "Load Configuration", command = self.load)
-        option_menu.add_command(label = "Save As", command = self.save)
-        option_menu.add_separator()
         option_menu.add_command(label = "Exit",command = root.destroy)
         
-    def edit(self):
-        print("Edit")
+    def edit(self):         #TODO: Consider cutting this entirely, but also consider making a button the resets the config back to all servants unclaimed.
+        self.popupmsg()
+    
+    def popupmsg(self):
+        popup = Tk()
+        popup.wm_title("Edit Configuration")
+        popup.geometry('700x500')
+        popup.resizable(False, False)
+
+        label = Label(popup, text = "test")
+        label.pack(side = "top", fill = "x", pady = 10)
         
-    def load(self):
-        print("Load")
+        B1 = Button(popup, text = "Okay", command = popup.destroy)
+        B1.pack()
         
-    def save(self):
-        print("Save")
+        popup.mainloop()
+    

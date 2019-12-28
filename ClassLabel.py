@@ -14,16 +14,16 @@ class ClassLabel():
     
     def __init__(self, root):
         
-        file_path = Path("ClassIcon/Lancer.png")
+        file_path = Path("ClassIcon/Unknown.png")
         
         image = Image.open(file_path)
         image = image.resize((100, 100), Image.ANTIALIAS)
         picture = PIL.ImageTk.PhotoImage(image)
         
-        self.label = Label(borderwidth = 1, relief = "raised", image = picture, bg = "#CBCACA")
+        self.label = Label(borderwidth = 1, image = picture)
         self.label.image = picture #deals with wierd Tkinter garbage collection
         
-        self.label.place(height = 100, width = 100, x = 80, y = 70)
+        self.label.place(height = 100, width = 100, x = 330, y = 165)
         
     def change_class(self, pic):
         
