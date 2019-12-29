@@ -12,9 +12,7 @@ servant = ""
 util = None
 
 class ClaimButton():
-    
-    servant = " "
-    
+        
     def __init__(self, root):
         
 #        Creating background Label

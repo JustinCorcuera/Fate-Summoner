@@ -36,7 +36,7 @@ class SummonButton():
         
         #Checks if all servants are claimed to stop infinite loop
         if not False in claim_status:
-            print("test")       #TODO: Set logic for no more Servants to Claim
+            self.popupmsg() 
             
         else:
             
@@ -65,5 +65,18 @@ class SummonButton():
             #Sets the current Servant to a variable in ClaimButton
             claim.current_name(servant, util)
 
+    def popupmsg(self):
+        popup = Tk()
+        popup.wm_title("Warning")
+        popup.geometry('300x100')
+        popup.resizable(False, False)
+
+        label = Label(popup, text = "All Servants have been claimed. Please reset the configuration or edit the local config file.", wraplength = 280)
+        label.pack(side = "top", fill = "x", pady = 10)
+        
+        B1 = Button(popup, text = "Okay", command = popup.destroy)
+        B1.pack()
+        
+        popup.mainloop()
         
         

@@ -5,6 +5,7 @@ Created on Tue Dec 24 13:54:40 2019
 @author: Justin Corcuera
 """
 from tkinter import * 
+from ConfigUtility import ConfigUtility
 
 class OptionMenu():
     
@@ -12,12 +13,13 @@ class OptionMenu():
         option_menu = Menu(menu, tearoff = 0)
         menu.add_cascade(label = "Options", menu = option_menu)
         
-        option_menu.add_command(label = "Edit Configuration", command = self.edit)
+        option_menu.add_command(label = "Reset Configuration", command = self.reset)
         option_menu.add_separator()
         option_menu.add_command(label = "Exit",command = root.destroy)
         
-    def edit(self):         #TODO: Consider cutting this entirely, but also consider making a button the resets the config back to all servants unclaimed.
-        self.popupmsg()
+    def reset(self):         #TODO: Before calling reset_config, have a warning popup appear that confirms the option.
+        util = ConfigUtility()
+        
     
     def popupmsg(self):
         popup = Tk()

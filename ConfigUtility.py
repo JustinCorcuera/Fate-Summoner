@@ -4,6 +4,8 @@
 #
 #@author: Justin Corcuera
 #"""
+
+from tkinter import * 
 import json
 import random 
 
@@ -81,12 +83,28 @@ class ConfigUtility():
                 self.claim_status.append(p['claim'])
                 
             if not False in self.claim_status:
-               print("test")                    #TODO: Set logic for no more available Servants to claim
+               self.popupmsg()
                 
         with open("config.txt", "w") as jsonFile:  
             
             jsonFile.seek(0)                
-            json.dump(data, jsonFile, indent = 4)       
-                          
+            json.dump(data, jsonFile, indent = 4)  
+            
+    def config_reset(self):
+        print()     #TODO: Reset all claim values to False
+                       
+    def popupmsg(self):
+        popup = Tk()
+        popup.wm_title("Warning")
+        popup.geometry('300x100')
+        popup.resizable(False, False)
+
+        label = Label(popup, text = "All Servants have been claimed. Please reset the configuration or edit the local config file.", wraplength = 280)
+        label.pack(side = "top", fill = "x", pady = 10)
+        
+        B1 = Button(popup, text = "Okay", command = popup.destroy)
+        B1.pack()
+        
+        popup.mainloop()
         
     
