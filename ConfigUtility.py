@@ -37,7 +37,16 @@ class ConfigUtility():
             
     #Gets random Servant Name                
     def get_random(self):
-        return self.servants[random.randint(0, len(self.servants) - 1)]
+        temp = []
+        cntr = 0
+        #Only randomly selects Servants that are not claimed in order to reduce potential roll time.
+        for i in self.servants:
+            if self.name_to_claim[i] == False:
+                temp.append(self.servants[cntr])
+                
+            cntr += 1
+        
+        return self.servants[random.randint(0, len(temp) - 1)]
     
     #Gets list of all Servant names
     def get_all(self):
