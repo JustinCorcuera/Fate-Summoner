@@ -3,14 +3,14 @@
         {
             "name": "Jeanne Alter Santa Lily",
             "f_class": "Lancer.png",
-            "claim": true,
+            "claim": false,
             "pic_url": "test.png",
             "line": "I'm Jeanne! It's a bit early for Christmas but, let's do our best together! By the way, do you know how this Sled moves?"
         },
         {
             "name": "Artoria",
             "f_class": "Saber.png",
-            "claim": true,
+            "claim": false,
             "pic_url": "test1.png",
             "line": "I ask of you. Are you my Master?"
         }

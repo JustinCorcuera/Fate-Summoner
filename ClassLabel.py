@@ -23,7 +23,7 @@ class ClassLabel():
         self.label = Label(borderwidth = 1, image = picture)
         self.label.image = picture #deals with wierd Tkinter garbage collection
         
-        self.label.place(height = 100, width = 100, x = 330, y = 165)
+        self.label.place(height = 100, width = 100, x = 418, y = 60)
         
     def change_class(self, pic):
         

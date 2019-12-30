@@ -6,15 +6,27 @@ Created on Tue Dec 24 22:00:33 2019
 """
 
 from tkinter import * 
+from pathlib import Path
+from PIL import Image
+import PIL.ImageTk
 
 class LineLabel():
     
     def __init__(self, root):
+        
+        
+        file_path = Path("GraphicAssets/LineBG.png")  
+        
+        image = Image.open(file_path)
+        image = image.resize((600, 130), Image.ANTIALIAS)
+        picture = PIL.ImageTk.PhotoImage(image)
+        
         self.label = Label(root, text = "",
-                      justify = "center", bg = "#CBCACA",
-                      font = ("Times", 12, "bold"), borderwidth = 1,
-                      wraplength = 500,
-                      relief = "raised")
+                      justify = "center", image = picture,
+                      font = ("Source Sans Pro", 12, "bold"), borderwidth = 1,
+                      wraplength = 500, fg = "white",
+                      compound = CENTER)
+        self.label.image = picture #deals with weird Tkinter garbage collection
         
         self.label.place(height = 130, width = 600, x = 15, y = 430)
         

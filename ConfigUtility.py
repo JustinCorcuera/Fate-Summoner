@@ -37,7 +37,11 @@ class ConfigUtility():
             
     #Gets random Servant Name                
     def get_random(self):
-        return self.servants[random.randint(0, 1)] #TODO: servants.len for the random int length
+        return self.servants[random.randint(0, len(self.servants) - 1)]
+    
+    #Gets list of all Servant names
+    def get_all(self):
+        return self.servants
 
     #Passes dict with names mapped to class
     def class_dict(self):
@@ -91,7 +95,19 @@ class ConfigUtility():
             json.dump(data, jsonFile, indent = 4)  
             
     def config_reset(self):
-        print()     #TODO: Reset all claim values to False
+        #Reads JSON and changes all claims to False
+        with open("config.txt", "r") as jsonFile:       
+
+            data = json.load(jsonFile)      
+            
+            for p in data['Servant']:
+                p['claim'] = False
+             
+        #updates JSON file
+        with open("config.txt", "w") as jsonFile:  
+            
+            jsonFile.seek(0)                
+            json.dump(data, jsonFile, indent = 4)  
                        
     def popupmsg(self):
         popup = Tk()

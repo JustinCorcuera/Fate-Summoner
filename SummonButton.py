@@ -11,20 +11,33 @@ from PictureLabel import PictureLabel
 from NameLabel import NameLabel
 from LineLabel import LineLabel
 from ClassLabel import ClassLabel
+from pathlib import Path
+from PIL import Image
+import PIL.ImageTk
 
 class SummonButton():
     
-    def __init__(self, root, name, picture, servant_class, line, claim):
+    def __init__(self, root, name, pic, servant_class, line, claim):
         
 #        Creating background Label
 #        self.label = Label(borderwidth = 1, relief = "raised", bg = "#CBCACA")      
 #        self.label.place(height = 70, width = 160, x = 440, y = 320)
         
-        #Creating Claim Button
-        self.button = Button(root, text = "Summon", command = lambda: self.summon(name, picture, servant_class, line, claim))
-        self.button.place(height = 50, width = 140, x = 450, y = 240)
+        file_path = Path("GraphicAssets/Button.png")  
         
-    def summon(self ,name, picture, servant_class, line, claim):
+        image = Image.open(file_path)
+        image = image.resize((140, 60), Image.ANTIALIAS)
+        picture = PIL.ImageTk.PhotoImage(image)
+        
+        #Creating Claim Button
+        self.button = Button(root, text = "Summon", font = ("Verdana", 18, "bold"),         
+                             image = picture, fg = "#0E2460", compound = CENTER,
+                             command = lambda: self.summon(name, pic, servant_class, line, claim))
+        self.button.image = picture #deals with wierd Tkinter garbage collection
+        
+        self.button.place(height = 60, width = 140, x = 398, y = 340)
+        
+    def summon(self ,name, pic, servant_class, line, claim):
         #initialize ConfigUtility
         util = ConfigUtility()
         
@@ -56,7 +69,7 @@ class SummonButton():
             
             #Changes the picture to the new Servant's picture
             url = pic_url[servant]
-            picture.change_pic(url)
+            pic.change_pic(url)
             
             #Changes the class symbol to that of the new Servant
             class_url = classes[servant]
