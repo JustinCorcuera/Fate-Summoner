@@ -27,7 +27,7 @@ class ClassLabel():
         
     def change_class(self, pic):
         
-        file_path = Path("ClassIcon/" + pic)
+        file_path = Path("ClassIcon/" + pic + ".png")
         
         image = Image.open(file_path)
         image = image.resize((100, 100), Image.ANTIALIAS)

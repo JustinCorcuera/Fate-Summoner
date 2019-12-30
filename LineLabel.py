@@ -23,8 +23,8 @@ class LineLabel():
         
         self.label = Label(root, text = "",
                       justify = "center", image = picture,
-                      font = ("Source Sans Pro", 12, "bold"), borderwidth = 1,
-                      wraplength = 500, fg = "white",
+                      font = ("Source Sans Pro", 10, "bold"), borderwidth = 1,
+                      wraplength = 590, fg = "white",
                       compound = CENTER)
         self.label.image = picture #deals with weird Tkinter garbage collection
         

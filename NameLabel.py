@@ -22,7 +22,7 @@ class NameLabel():
         
         self.label = Label(root, text = "Fate Summoner",
                       justify = "center", fg = "#0F2E80",
-                      font = ("Source Sans Pro", 14, "bold"), borderwidth = 1,
+                      font = ("Source Sans Pro", 10, "bold"), borderwidth = 1,
                       image = picture, compound = CENTER)
         self.label.image = picture #deals with weird Tkinter garbage collection
         
