@@ -1012,7 +1012,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '124.png',
-        'line': "Rider, Lightning Emperor Ivan./nThe coronation is already finished.\nFear me, bow before me, and punish me."
+        'line': "Rider, Lightning Emperor Ivan.\nThe coronation is already finished.\nFear me, bow before me, and punish me."
 })
 data['Servant'].append({
         'name': ' Achilles',
@@ -1295,7 +1295,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '159.png',
-        'line': "So I have been summoned./n...My name is Scheherazade. If you would hear my one simple wish... It would be for me to serve you as my king, forever."
+        'line': "So I have been summoned.\n...My name is Scheherazade. If you would hear my one simple wish... It would be for me to serve you as my king, forever."
 })
 data['Servant'].append({
         'name': 'Nero Claudius (Caster)',

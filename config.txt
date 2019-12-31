@@ -990,7 +990,7 @@
             "claim": false,
             "appear": true,
             "pic_url": "124.png",
-            "line": "Rider, Lightning Emperor Ivan./nThe coronation is already finished.\nFear me, bow before me, and punish me."
+            "line": "Rider, Lightning Emperor Ivan.\nThe coronation is already finished.\nFear me, bow before me, and punish me."
         },
         {
             "name": " Achilles",
@@ -1270,7 +1270,7 @@
             "claim": false,
             "appear": true,
             "pic_url": "159.png",
-            "line": "So I have been summoned./n...My name is Scheherazade. If you would hear my one simple wish... It would be for me to serve you as my king, forever."
+            "line": "So I have been summoned.\n...My name is Scheherazade. If you would hear my one simple wish... It would be for me to serve you as my king, forever."
         },
         {
             "name": "Nero Claudius (Caster)",
