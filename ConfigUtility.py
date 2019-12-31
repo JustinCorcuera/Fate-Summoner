@@ -41,6 +41,7 @@ class ConfigUtility():
     def get_random(self):
         temp = []
         cntr = 0
+        
         #Only randomly selects Servants that are not claimed in order to reduce potential roll time.
         for i in self.servants:
             if self.name_to_claim[i] == False:
@@ -48,7 +49,7 @@ class ConfigUtility():
                 
             cntr += 1
         
-        return self.servants[random.randint(0, len(temp) - 1)]
+        return temp[random.randint(0, len(temp) - 1)]
     
     #Gets list of all Servant names
     def get_all(self):
@@ -103,7 +104,25 @@ class ConfigUtility():
         with open(self.file_path, "w") as jsonFile:  
             
             jsonFile.seek(0)                
-            json.dump(data, jsonFile, indent = 4)  
+            json.dump(data, jsonFile, indent = 4) 
+            
+    def update_config_instance(self):
+        with open(self.file_path, "r") as jsonFile:       
+
+            data = json.load(jsonFile)                       
+
+            for p in data['Servant']:               
+                self.name = p['name']
+                self.f_class = p['f_class']
+                self.claim = p['claim']
+                self.pic_url = p['pic_url']
+                self.summon_line = p['line']
+                self.name_to_class[self.name] = self.f_class
+                self.name_to_claim[self.name] = self.claim
+                self.name_to_pic[self.name] = self.pic_url
+                self.name_to_line[self.name] = self.summon_line
+                self.servants.append(p['name'])
+                self.claim_status.append(p['claim'])
             
     def config_reset(self):
         #Reads JSON and changes all claims to False

@@ -37,10 +37,11 @@ class SummonButton():
         
         self.button.place(height = 60, width = 140, x = 398, y = 340)
         
-    def summon(self ,name, pic, servant_class, line, claim):
+    def summon(self, name, pic, servant_class, line, claim):
         #initialize ConfigUtility
         util = ConfigUtility()
         
+        util.update_config_instance()
         claimed = util.claimed()
         pic_url = util.pic_dict()
         lines = util.line_dict()
@@ -50,13 +51,10 @@ class SummonButton():
         #Checks if all servants are claimed to stop infinite loop
         if not False in claim_status:
             self.popupmsg() 
-            
         else:
-            
             #checks if the Servant name is able to be summoned.
             while True:
                 servant = util.get_random()
-                
                 if claimed[servant] == False:
                     break
             

@@ -39,13 +39,16 @@ class ClaimButton():
     def current_name(self, name, utility):
         global servant
         global util
-        
         #sets current Servant and current instance of the ConfigUtility (To consider: Does this really need to be a current instance? Why not new instance?) 
         util = utility
+        util.update_config_instance()
         servant = name
 
     def claim(self):
         global servant
+        global util
+        util = ConfigUtility()
+        util.update_config_instance()
         claim_dict = util.claimed()
         
         if servant != "":  
