@@ -22,6 +22,7 @@ import PIL.ImageTk
 root = Tk()
 root.geometry('630x575')
 root.resizable(False, False)    
+root.title("Fate Summoner")
 
 #setting background
 file_path = Path("GraphicAssets/background.png")        

@@ -20,6 +20,7 @@ class OptionMenu():
     def view(self):         
         window = Tk()
         window.geometry("400x320")
+        window.title("Claimed Servants")
         
         fr=Frame(window)
         fr.pack()

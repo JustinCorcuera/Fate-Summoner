@@ -8,6 +8,7 @@
 from tkinter import * 
 import json
 import random 
+from pathlib import Path
 
 class ConfigUtility():
     
@@ -20,7 +21,8 @@ class ConfigUtility():
         self.claim_status = []
         
         #Opens JSON config and assigns to variables. TODO:Change open and the file itself to .json
-        with open('config.txt', 'r') as json_file:
+        self.file_path = Path("config.txt")
+        with open(self.file_path, 'r') as json_file:
             data = json.load(json_file)
             for p in data['Servant']:
                 self.name = p['name']
@@ -74,7 +76,7 @@ class ConfigUtility():
     
     #updates the configuration dict objects and JSON file
     def update_config_claim(self, servant):
-        with open("config.txt", "r") as jsonFile:       
+        with open(self.file_path, "r") as jsonFile:       
 
             data = json.load(jsonFile)      
             inp = servant                 
@@ -98,14 +100,14 @@ class ConfigUtility():
             if not False in self.claim_status:
                self.popupmsg()
                 
-        with open("config.txt", "w") as jsonFile:  
+        with open(self.file_path, "w") as jsonFile:  
             
             jsonFile.seek(0)                
             json.dump(data, jsonFile, indent = 4)  
             
     def config_reset(self):
         #Reads JSON and changes all claims to False
-        with open("config.txt", "r") as jsonFile:       
+        with open(self.file_path, "r") as jsonFile:       
 
             data = json.load(jsonFile)      
             
@@ -113,7 +115,7 @@ class ConfigUtility():
                 p['claim'] = False
              
         #updates JSON file
-        with open("config.txt", "w") as jsonFile:  
+        with open(self.file_path, "w") as jsonFile:  
             
             jsonFile.seek(0)                
             json.dump(data, jsonFile, indent = 4)  
