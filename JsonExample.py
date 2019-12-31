@@ -203,7 +203,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '024.png',
-        'line': "Saber, Yagyu Tajima-no-kami Munenori. From here on, I shall serve you as my lord. I intend to follow your orders...no matter what they may be."
+        'line': "Saber, Yagyu Tajima-no-kami Munenori. From here on, I shall serve you as my lord. I intend to follow your orders... no matter what they may be."
 })
 data['Servant'].append({
         'name': 'Sigurd',
@@ -219,7 +219,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '026.png',
-        'line': "At last it's here, here it is! In an long awaited swimsuit form, Queen Medb has manifested! Heroic spirits who can match up to my skin's value ... there aren't any. Hey, don't you think so too?"
+        'line': "At last it's here, here it is! In an long awaited swimsuit form, Queen Medb has manifested! Heroic spirits who can match up to my skin's value... there aren't any. Hey, don't you think so too?"
 })
 data['Servant'].append({
         'name': 'Diarmuid Ua Duibhne (Saber)',
@@ -243,7 +243,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '029.png',
-        'line': "Welcome to the Enma Pavilion. I am delighted to meet you, honorable guest...is not how it goes, right. Servant; Saber. The Tongue-Cut Sparrow, Benienma. I have come here to offer my services. Please take care of me from now on."
+        'line': "Welcome to the Enma Pavilion. I am delighted to meet you, honorable guest... is not how it goes, right. Servant; Saber. The Tongue-Cut Sparrow, Benienma. I have come here to offer my services. Please take care of me from now on."
 })
 data['Servant'].append({
         'name': 'Lakshmibai',
@@ -259,7 +259,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '031.png',
-        'line': "Saber, Jason. I have arrived according to your summoning. I'm a hero but before that I'm a captain.Okay? Be careful not to send me to the front. Don't ever send me out!"
+        'line': "Saber, Jason. I have arrived according to your summoning. I'm a hero but before that I'm a captain. Okay? Be careful not to send me to the front. Don't ever send me out!"
 })
 data['Servant'].append({
         'name': 'Katsushika Hokusai (Saber)',
@@ -753,7 +753,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '092.png',
-        'line': "Hello, Master of Chaldea. I am Parvati. I have manifested by borrowing the body of a young maiden. Since this is new for me too, will you help me grow alongside you?"
+        'line': "Hello, Master. I am Parvati. I have manifested by borrowing the body of a young maiden. Since this is new for me too, will you help me grow alongside you?"
 })
 data['Servant'].append({
         'name': 'Houzouin Inshun',
@@ -1012,7 +1012,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '124.png',
-        'line': "Rider, Lightning Emperor Ivan. The coronation is already finished. Fear me, bow before me, and punish me."
+        'line': "Rider, Lightning Emperor Ivan./nThe coronation is already finished.\nFear me, bow before me, and punish me."
 })
 data['Servant'].append({
         'name': ' Achilles',
@@ -1070,13 +1070,13 @@ data['Servant'].append({
         'pic_url': '131.png',
         'line': "My, what an unexpected meeting... The atmosphere is different from usual? Fufu, is that so? At any rate, I think that me being a dangerous woman hasn’t changed. Be as careful as possible, Master."
 })
-data['Servant'].append({
+data['Servant'].append({ #TODO: UPDATE LINE TO CORRECT
         'name': 'Mandricardo',
         'f_class': 'Rider',
         'claim': False,
         'appear': True,
         'pic_url': '132.png',
-        'line': ""
+        'line': "The Servant who answered in response to your summoning. Rider, Mandricardo. Well, treat me properly."
 })
 data['Servant'].append({
         'name': 'Europa',
@@ -1084,23 +1084,1150 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '133.png',
-        'line': "I am Europa. Nice to meet you. I am... umm... what was it... Rai... Raiden...! That's right, Raiden! I have been summoned in the Raiden cla⁠⁠— Yes Mm... It's wrong? Not Raiden but Rider? ...Oh dear. Ehmm. Once again. I am Europa, summoned in the Rider class.I am one of the Chief-God Zeus's consorts. It's nice to meet you, Master of Chaldea."
+        'line': "I am Europa. Nice to meet you. I am... umm... what was it... Rai... Raiden...! That's right, Raiden! I have been summoned in the Raiden cla⁠⁠— Yes Mm... It's wrong? Not Raiden but Rider? ...Oh dear. Ehmm. Once again. I am Europa, summoned in the Rider class.I am one of the Chief-God Zeus's consorts. It's nice to meet you, Master."
 })
 
 #CASTERS
 
+data['Servant'].append({
+        'name': 'Medea',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '134.png',
+        'line': "Oh my, you are a rather cute Master!"
+})
+data['Servant'].append({
+        'name': 'Gilles de Rais',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '135.png',
+        'line': "I am Gilles de Rais, and I have come to you at your invitation. From here on, I shall be at your command."
+})
+data['Servant'].append({
+        'name': 'Hans Christian Andersen',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '136.png',
+        'line': "I am a third-rate servant, Andersen. Just throw me in the corner of a bookshelf."
+})
+data['Servant'].append({
+        'name': 'William Shakespeare',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '137.png',
+        'line': "I am Caster-class Shakespeare, and I have come to see you! So, shall we begin our story?"
+})
+data['Servant'].append({
+        'name': 'Mephistopheles',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '138.png',
+        'line': "Looks like you hit the jackpot, Master? I am the devil, Mephistopheles. And I have been called upon."
+})
+data['Servant'].append({
+        'name': 'Wolfgang Amadeus Mozart',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '139.png',
+        'line': "I am Amadeus Wolfgang Mozart! Leave battles aside, I promise only to decorate your life!"
+})
+data['Servant'].append({
+        'name': 'Zhuge Liang (Lord El-Melloi II)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '140.png',
+        'line': "I am Servant Zhuge Liang... What? You are asking if I am the wrong person? Exactly, I am actually El-Melloi the Second. But I did inherit all the powers, so there's no issue there."
+})
+data['Servant'].append({
+        'name': 'Cú Chulainn (Caster)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '141.png',
+        'line': "Oops! I guess this time I am materialized as a Caster? Well, let's try to have fun Master."
+})
+data['Servant'].append({
+        'name': 'Elizabeth Báthory (Halloween)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '142.png',
+        'line': "Trick or treat! There's no need for introductions, right? Demoness Elisabeth Báthory. In response to your passionate support, I have been summoned in my best dress!"
+})
+data['Servant'].append({
+        'name': 'Tamamo no Mae',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '143.png',
+        'line': "I will always be there for you! Your reliable Shrine Maiden Fox, Caster, has now arrived."
+})
+data['Servant'].append({
+        'name': 'Medea (Lily)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '144.png',
+        'line': "I'm Medea, a Caster-class Servant. Um, I look forward to working with you."
+})
+data['Servant'].append({
+        'name': 'Nursery Rhyme',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '145.png',
+        'line': "Hello to the wonderful you. Let's make this a beautiful dream."
+})
+data['Servant'].append({
+        'name': 'Paracelsus von Hohenheim',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '146.png',
+        'line': "I have been summoned upon your request. Please, be friends with me, Paracelsus."
+})
+data['Servant'].append({
+        'name': 'Charles Babbage',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '147.png',
+        'line': "My name is the Steam King.\nI died once and now my existance lives along in the imaginary world."
+})
+data['Servant'].append({
+        'name': 'Helena Blavatsky',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '148.png',
+        'line': "...It's all right. This Caster will guide you along the way!"
+})
+data['Servant'].append({
+        'name': 'Thomas Edison',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '149.png',
+        'line': "Servant, Caster. I am Thomas Alva Edison! Don't worry about my looks! This is the symbol of America!"
+})
+data['Servant'].append({
+        'name': 'Geronimo',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '150.png',
+        'line': "Servant class, Caster.\n…Maybe I'm known better as Geronimo."
+})
+data['Servant'].append({
+        'name': 'Irisviel (Dress of Heaven)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '151.png',
+        'line': "I am from the Holy Grail. The one serving as the terminal of the Holy Grail.\nA temporary form.\nA temporary Servant.\nMy name... Please call me Irisviel."
+})
+data['Servant'].append({
+        'name': 'Xuanzang Sanzang',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '152.png',
+        'line': "My name is Xuanzang Sanzang! Through the guidance of the Buddha, I have arrived! Umm, I am a Caster!"
+})
+data['Servant'].append({
+        'name': 'Nitocris',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '153.png',
+        'line': "Servant, Caster. Reincarnation of the Sky God Horus, I, Nitocris have answered your summons.\nAs you can see, I am a pharaoh, but vastly inexperienced. Thus, for now I shall accept you as my ally.\nHowever, I have one thing to say. Bow your head. You're being disrespectful!"
+})
+data['Servant'].append({
+        'name': 'Leonardo Da Vinci',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '154.png',
+        'line': "Nice to meet you once again. I am servant Leonardo Da Vinci. Yes, from now on, I will be Da Vinci-chan only for you!"
+})
+data['Servant'].append({
+        'name': 'Marie Antoinette (Caster)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '155.png',
+        'line': "I like beaches, I really do! I hope you and everyone can enjoy it, too! -Vive La France! Oh? There's a crab sitting on my head. Hehehe, How are you, Mr. Crab?"
+})
+data['Servant'].append({
+        'name': 'Illyasviel von Einzbern',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '156.png',
+        'line': "Illya: Erm, My name is Illya. I'm a 5th elementary school grader. For now... I'm trying out being a magical girl. Uhm, I'm not sure if someone like me will be useful… But I'll do my very best!\nRuby: Ruby-chan is here too! Let's go have some cute fun, Grand Master!"
+})
+data['Servant'].append({
+        'name': 'Gilgamesh (Caster)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '157.png',
+        'line': "Caster, Gilgamesh. I have materialized in this form to meet Uruk's time of need, not in response to your summon. Don't get cocky, mongrel."
+})
+data['Servant'].append({
+        'name': 'Merlin',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '158.png',
+        'line': "Greetings, Master. I am Merlin. People call me the Mage of Flowers. Just call me Merlin. I don't care for formalities."
+})
+data['Servant'].append({
+        'name': 'Scheherazade',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '159.png',
+        'line': "So I have been summoned./n...My name is Scheherazade. If you would hear my one simple wish... It would be for me to serve you as my king, forever."
+})
+data['Servant'].append({
+        'name': 'Nero Claudius (Caster)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '160.png',
+        'line': "Surprised by the sudden swimsuit? I bet you're surprised! Umu, I am ecstatic too! My heart is racing! Caster, Nero Claudius, here to answer your summon! Let's make this an unforgettable summer!"
+})
+data['Servant'].append({
+        'name': 'Circe',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '161.png',
+        'line': "Hi, I won’t let you be lonely anymore. Because the witch Circe has come. Fufu."
+})
+data['Servant'].append({
+        'name': 'Queen of Sheba',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '162.png',
+        'line': "Yes, I'm here~. I was called the Queen governing the country of Sheba. Please call me 'Sheba'.\nYes? My real name? Hmm, that will cost extra."
+})
+data['Servant'].append({
+        'name': 'Anastasia Nikolaevna Romanova',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '163.png',
+        'line': "Servant, Anastasia. I came here in response to you summoning request. This is Viy. He’s with me. Take care of us."
+})
+data['Servant'].append({
+        'name': 'Avicebron',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '164.png',
+        'line': "Servant, Caster. I, Avicebron, have come at your request. Pardon me for asking so soon, but I desire a workshop… is that all right?"
+})
+data['Servant'].append({
+        'name': 'Sieg',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '165.png',
+        'line': "Servant, Sieg. I'm sorry, I'm just a homunculus. This is not my first experience fighting as a servant, but this is the first time I fight as myself... I think I’m saying a lot of incomprehensible things, but I’m counting on you."
+})
+data['Servant'].append({
+        'name': 'Scáthach-Skaði',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '166.png',
+        'line': "...Oh, you're a young one. You called for me who reigns over the ice and snow of death. I am the Divine Spirit, Scáthach-Skaði. The bride of the old gods of Scandinavia, the Lostbelt Servant who was once a queen."
+})
+data['Servant'].append({
+        'name': 'Shuten Dōji (Caster)',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '167.png',
+        'line': "Caster, Shuten-Dōji. Best regards then. Well, though nothing changes even if I say I'm a Caster... Hm, what? That's right. Until I remove these clothes, I'm the innocent Dharmapala Girl."
+})
+data['Servant'].append({
+        'name': 'Miyu Edelfelt',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '168.png',
+        'line': "Miyu: I'm Miyu. My surname is, temporarily, Edelfelt.\nSapphire: I'm named the Stick Magical Sapphire. I hope my older sister hasn't troubled you?"
+})
+data['Servant'].append({
+        'name': 'Murasaki Shikibu',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '169.png',
+        'line': "Servant, Caster. I'm called Murasaki Shikibu.\nI'm a woman who befriends sentences, who gathers words, who nestles close to the feelings of people, so...\nPlease use me at your own discretion..."
+})
+data['Servant'].append({
+        'name': 'Asclepius',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '170.png',
+        'line': "Caster, Asclepius. Let’s start the examination. What? It’s not that bad? Even if that’s the case, bring the patient here immediately. There’s nothing more worthless than a doctor not in front of a patient."
+})
+data['Servant'].append({
+        'name': 'Chen Gong',
+        'f_class': 'Caster',
+        'claim': False,
+        'appear': True,
+        'pic_url': '171.png',
+        'line': "Servant, Caster. My full name is Chen Gong, and my courtesy name is Gongtai. Being summoned like this is part of destiny. Let us associate for many years to come."
+})
+
+#ASSASSINS
+data['Servant'].append({
+        'name': 'Sasaki Kojirou',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '172.png',
+        'line': "I am Sasaki Kojirou, an Assassin-class Servant. And I have been called upon to your service."
+})
+data['Servant'].append({
+        'name': 'Hassan of the Cursed Arm',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '173.png',
+        'line': "Assassin-class Servant. I heard your call from the shadows."
+})
+data['Servant'].append({
+        'name': 'Stheno',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '174.png',
+        'line': "Haha. Trying to summon a goddess to this world, such an interesting and poor soul. You, what is your name?"
+})
+data['Servant'].append({
+        'name': 'Jing Ke',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '175.png',
+        'line': "My name is Jing Ke, an Assassin-class Servant. I do feel complicated for being summoned after that failure. But let's plan well next time!"
+})
+data['Servant'].append({
+        'name': 'Charles-Henri Sanson',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '176.png',
+        'line': "My name is Charles-Henri Sanson. I have been summoned and come at your request!"
+})
+data['Servant'].append({
+        'name': 'Phantom of the Opera',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '177.png',
+        'line': "Whoever sees my face will learn the meaning of fear... including you."
+})
+data['Servant'].append({
+        'name': 'Mata Hari',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '178.png',
+        'line': "Assassin-class Servant. I go by the name of Mata Hari. Nice to meet you."
+})
+data['Servant'].append({
+        'name': 'Carmilla',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '179.png',
+        'line': "Ah. I guess this must be fate. Please call me Carmilla. I am an Assassin-class Servant."
+})
+data['Servant'].append({
+        'name': ' Jack the Ripper',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '180.png',
+        'line': "Assassin Jack the Ripper. Nice to meet you, Mommy."
+})
+data['Servant'].append({
+        'name': 'Henry Jekyll & Hyde',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '181.png',
+        'line': "My name is Jekyll. I am...different from Hyde."
+})
+data['Servant'].append({
+        'name': 'Mysterious Heroine X',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '182.png',
+        'line': "Code Name: Heroine X. I am a Servant summoned to deal with the recent problem of the ever-increasing number of Sabers appearing. Nice to meet you."
+})
+data['Servant'].append({
+        'name': 'Ryougi Shiki',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '183.png',
+        'line': "Servant, Assassin. The name is Ryougi Shiki.\n...Will that do for a greeting? Such a strange custom, sheesh... Can't say I'm used to this but whatever, let's just wing it however you want."
+})
+data['Servant'].append({
+        'name': 'EMIYA (Assassin)',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '184.png',
+        'line': "More dirty work…\nFine. That’s how it always is."
+})
+data['Servant'].append({
+        'name': 'Hassan of the Hundred Faces',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '185.png',
+        'line': "Now that you have command over the army of shadows, victory is at hand. You can rest easy now, Master."
+})
+data['Servant'].append({
+        'name': 'Shuten-Douji',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '186.png',
+        'line': "Assassin, Shuten-Douji. Fufu. Please accept my gratitude for summoning me. I will do as I please but... you don't mind, do you?"
+})
+data['Servant'].append({
+        'name': 'Fuuma Kotarou',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '187.png',
+        'line': "Servant, Assassin. Fuuma Kotarou. I might look like this, but please don't let that bother you..."
+})
+data['Servant'].append({
+        'name': 'Hassan of the Serenity',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '188.png',
+        'line': "Everything, everything, everything as you would will it. I will offer all of myself to you. This body, this heart, all of it..."
+})
+data['Servant'].append({
+        'name': 'Scáthach (Assassin)',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '189.png',
+        'line': "ervant Assassin. Scathach. I descended here. Good, this is a summer outfit. Or maybe a beach outfit? Well it does not change the fact that I myself I'm here. Take care of me, master"
+})
+data['Servant'].append({
+        'name': 'Cleopatra',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '190.png',
+        'line': "Hah, did you think I would appear from within a rolled-up carpet? ...Well, perhaps I considered it, but rejected the idea since this is our first meeting. I am the last Pharaoh, Cleopatra VII Philopator. Master, could you please refrain from holding your head higher than the sun?"
+})
+data['Servant'].append({
+        'name': 'First Hassan',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '191.png',
+        'line': "Do not be afraid, O contractor. The Old Man of the Mountain hath come revealed, in answer to thy summons. I have no name. Address me as thou wilt."
+})
+data['Servant'].append({
+        'name': 'Yan Qing',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '192.png',
+        'line': "Hey! Class: Assassin. Yan Qing has come! By the way, is 'he'd be cute if he'd shut his mouth' a compliment?"
+})
+data['Servant'].append({
+        'name': 'Wu Zetian',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '193.png',
+        'line': "Our name is Wu Zetian. For someone to intend to employ us... it is so audacious that it becomes interesting instead, you know?"
+})
+data['Servant'].append({
+        'name': 'Nitocris (Assassin)',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '194.png',
+        'line': "I... am... a... nameles ... pharaoh... Bow... your...head. Disrespect... disrespectful... Hey. Do... not... look... inside!"
+})
+data['Servant'].append({
+        'name': 'Mochizuki Chiyome',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '195.png',
+        'line': "Kouga Jonin. My True Name, Mochizuki Chiyome. Assassin-class. Please, give me your orders."
+})
+data['Servant'].append({
+        'name': 'Katou Danzou',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '196.png',
+        'line': "Katou Danzou. Activated. Requesting input, Master. As Danzou is a shinobi, I will obey any command."
+})
+data['Servant'].append({
+        'name': 'Osakabehime',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '197.png',
+        'line': "Uh...um? Yes, yes, I'm Osakabehime, Assassin. So...um, can I go home now? I can't? Fiiine."
+})
+data['Servant'].append({
+        'name': 'Semiramis',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '198.png',
+        'line': "Servant, Assassin. Semiramis. Now then... First, prepare a throne. We will talk only after that. If you have none then that cannot be helped. Instead would serve as the chair."
+})
+data['Servant'].append({
+        'name': 'Okada Izou',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '199.png',
+        'line': "I'm Tosa's Okada Izou. You might know me better as Hitokiri Izou. What? Assassin...? You misunderstood, my class is Hitokiri."
+})
+data['Servant'].append({
+        'name': 'Ushiwakamaru (Assassin)',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '200.png',
+        'line': "It seems that after changing into a swimsuit I strangely became closer to the epoch when I was training. At the Kurama mount, playing is training, that's what I was taught. There, that's the right path now. My lord, play a lot with Ushiwaka, please!"
+})
+data['Servant'].append({
+        'name': 'Yu Miaoyi',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '201.png',
+        'line': "Listen here, you have some nerve freely…… On top of that, for you to summon me, what kind of sensibility do you have?! Hm, well fine. It's true we had a connection. Servant, Assassin. I'll answer that contract."
+})
+data['Servant'].append({
+        'name': 'Li Shuwen',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '202.png',
+        'line': "My name is Li Shuwen. With no spear, I'm just an elder, but... Well, it won't be deficient if it's to protect you. I'll be at your care, Master."
+})
+data['Servant'].append({
+        'name': 'Kama',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '203.png',
+        'line': "Sigh... Truth be told, I didn't plan to get in the way so much, but there are various circumstances. I'm Kama, the god of love. But I think it's better if you didn't consult me about love, you know?"
+})
+data['Servant'].append({
+        'name': 'Gray',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '204.png',
+        'line': "I'm Gray, the grave keeper. I think my circumstances are a bit different from a normal Servants, and I don't know if I may cause you trouble, but please take care of me...!"
+})
+data['Servant'].append({
+        'name': 'Charlotte Corday',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '205.png',
+        'line': "I’ve come in response to your summon! Assassin, Charlotte Corday! I’ll do my best, but sorry if I fail!"
+})
+data['Servant'].append({
+        'name': 'Okita J Souji',
+        'f_class': 'Assassin',
+        'claim': False,
+        'appear': True,
+        'pic_url': '206.png',
+        'line': "Thank you for waiting, Master! The invincible Okita-san in a swimsuit has come! With my sure-kill Jet Tennen Rishin-ryuu I'll monopolize the topic of the beach! Now, let's fly together to the great sky of summer! Shinsengumi in the Sky!"
+})
+
+#BERSERKERS
+
+data['Servant'].append({
+        'name': 'Heracles',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '207.png',
+        'line': "▂▂▃▃▅▅ーーー！！"
+})
+data['Servant'].append({
+        'name': 'Lancelot',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '208.png',
+        'line': "Shuhuhuhuhuhuhuhuhu..."
+})
+data['Servant'].append({
+        'name': 'Lu Bu Fengxian',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '209.png',
+        'line': "「■■■■■―――！！」"
+})
+data['Servant'].append({
+        'name': 'Spartacus',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '210.png',
+        'line': "I am Berserker Spartacus. Sorry to ask this, but are you a tyrant?"
+})
+data['Servant'].append({
+        'name': 'Sakata Kintoki',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '211.png',
+        'line': "Ohh, Nice to meet you! I am sorry to trouble you for now. Just call me Golden."
+})
+data['Servant'].append({
+        'name': 'Vlad III',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '212.png',
+        'line': "I am here at your request... Are you the Master who shall offer me your blood?"
+})
+data['Servant'].append({
+        'name': 'Asterios',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '213.png',
+        'line': "Whoooo!!"
+})
+data['Servant'].append({
+        'name': 'Caligula',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '214.png',
+        'line': "My... Action... Is... My... Destiny..."
+})
+data['Servant'].append({
+        'name': 'Darius III',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '215.png',
+        'line': "MuUUUUuuuu......"
+})
+data['Servant'].append({
+        'name': 'Kiyohime',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '216.png',
+        'line': "I am Servant Kiyohime. Do I look like a Berserker to you? It is nice to meet you, my Master."
+})
+data['Servant'].append({
+        'name': 'Eric Bloodaxe',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '217.png',
+        'line': "Uraaaaaaaaaaaaa!"
+})
+data['Servant'].append({
+        'name': 'Tamamo Cat',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '218.png',
+        'line': "I am one of the Tamamo Nine, the Wild Fox, Tamamo Cat! Nice to meet you, my Master!"
+})
+data['Servant'].append({
+        'name': 'Frankenstein',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '219.png',
+        'line': "...Uuuuu..."
+})
+data['Servant'].append({
+        'name': 'Beowulf',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '220.png',
+        'line': "Servant, Berserker. True Name's Beowulf. Well then, let's beat some things up, Master. ...Hey, hey, don't back off."
+})
+data['Servant'].append({
+        'name': 'Nightingale',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '221.png',
+        'line': "Please rest assured now that I'm here. Let's save everyone's lives. Even if all lives will be sacrificed."
+})
+data['Servant'].append({
+        'name': 'Cú Chulainn (Alter)',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '222.png',
+        'line': "I am Cú Chulainn, summoned at your request! ...My color has nothing to do with you."
+})
+data['Servant'].append({
+        'name': 'Minamoto no Raikou',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '223.png',
+        'line': "Hello, my dear Mage. Servant, Saber... Oh? Huh? I am not a Saber... Oh dear. Erm... I am Minamoto-no-Raikou. Although I still have a long way to go, I will be counting on you from now on, okay?"
+})
+data['Servant'].append({
+        'name': 'Ibaraki Douji',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '224.png',
+        'line': "My name is Ibaraki-Douji, the leader of the oni clan on Mt. Ooe."
+})
+data['Servant'].append({
+        'name': 'Mysterious Heroine X (Alter)',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '225.png',
+        'line': "Heroine X Alter... I am a Berser... I mean, Saber-class... Yes, Saber, probably...\nDon't you think this room is rather cold? Can I just hack up that useless heater there?"
+})
+data['Servant'].append({
+        'name': 'Hijikata Toshizou',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '226.png',
+        'line': "Shinsengumi Vice Commander, Hijikata Toshizo. My Class? That's irrelevant. As long as I'm here, this... is... the Shinsengumi."
+})
+data['Servant'].append({
+        'name': 'Chacha',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '227.png',
+        'line': "I am Chacha, the Sun's favorite concubine! I'm a Berserker Servant! Yep, I've given up on my class!"
+})
+data['Servant'].append({
+        'name': 'Penthesilea',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '228.png',
+        'line': "Queen of the Amazons, Penthesilea. I have come in answer to your summons. ...First, let me say: should Achilles be here, bring him out. If you are hiding him from me, I will kill you."
+})
+data['Servant'].append({
+        'name': 'Paul Bunyan',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '229.png',
+        'line': "Enchanté... My name is Paul Bunyan. I'm a Berserker Nice to meet you, Master. I wonder why I'm a girl... Strange, isn't it?"
+})
+data['Servant'].append({
+        'name': 'Oda Nobunaga (Berserker)',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '230.png',
+        'line': "Yeeeeeeaaah! Are you all pumped in!? I am the Demon King of the Sixth Heaven of the Beach.. That's right! Nobunaga THE Rock n' Roller! Eh? What part is rockin' you ask? A summer swimsuit means ROCK! Obviously! It's all about feeling, you know? Don't think too hard... Just feel! My Class is Berserker. Rockin' to meetcha!"
+})
+data['Servant'].append({
+        'name': 'Atalanta (Alter)',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '231.png',
+        'line': "Burn everything and devour all...!"
+})
+data['Servant'].append({
+        'name': "Jeanne d'Arc (Berserker Alter)",
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '232.png',
+        'line': "Officially joining in. I'm sure you've already witnessed my greatness. I'll beat down the enemies straight up.. But making me work in winter is NG (not good), ok?"
+})
+data['Servant'].append({
+        'name': 'Xiang Yu',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '233.png',
+        'line': "The family name is Xiang. The name is Ji. The name of courtesy is Yu. Even though I was instructed to give my name to others in such a way... I certainly did not expect to awaken in this form. Is my fate connected to thee in any form?"
+})
+data['Servant'].append({
+        'name': 'Arjuna (Alter)',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '234.png',
+        'line': "Servant. Berserker, Arjuna...\nMy body exists to make evil perish, to make all evil be judged..."
+})
+data['Servant'].append({
+        'name': 'Mori Nagayoshi',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '235.png',
+        'line': "I'm the Oni Musashi, Mori Nagayoshi! My class was Berserker, right? If you say something stupid I'll cut you up immediately!\n…Hey hey, relax.\nWell, I'm countin 'on ya, Master!"
+})
+data['Servant'].append({
+        'name': 'Salome',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '236.png',
+        'line': "I'm Salome! Herod's daughter, Salome. You're Master-san, right? Nice to meet you.\n ...Hey, you, do you like kissing?"
+})
+data['Servant'].append({
+        'name': 'Miyamoto Musashi (Berserker)',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '237.png',
+        'line': "I did it! Berserker, Musashi Miyamoto, has been summoned here! But really, is it finally my swimsuit debut...? Fufu, I was interested on it since long ago so I’m really lucky! I’ll count on you for this one summer adventure, Master!"
+})
+
+#RULERS
+data['Servant'].append({
+        'name': "Jeanne d'Arc",
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '238.png',
+        'line': "Servant Ruler, Jeanne d'Arc.I'm really glad to meet you!"
+})
+data['Servant'].append({
+        'name': 'Amakusa Shirou',
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '239.png',
+        'line': "Ruler-class Servant. Amakusa Shirou Tokisada. Do I look like someone you know? I am sure it's only a coincidence."
+})
+data['Servant'].append({
+        'name': 'Martha (Ruler)',
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '240.png',
+        'line': "Martha has arrived once more. No matter my appearance, I am still me! Without fail, I shall save the world with you."
+})
+data['Servant'].append({
+        'name': 'Sherlock Holmes',
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '241.png',
+        'line': "Are introductions necessary? I am a detective. If you were expecting a hero, my apologies... But if you wanted a detective or an investigator, you drew the right card."
+})
+data['Servant'].append({
+        'name': 'Shi Huang Di',
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '242.png',
+        'line': "It has been a long time, one who is a person yet a subject. ……Oh? We are stranger? Hm, there was a failure in the cause and effect of chronological order, huh? No, worry not. We are Qin Shi Huang. You may know me as a simple Ruler Servant for now."
+})
+data['Servant'].append({
+        'name': 'Quetzalcoatl (Samba/Santa)',
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '243.png',
+        'line': "I misunderstood it a bit, but giving out presents while dancing samba sounds fun? Santa and Samba, this is something doubly good! Leave it to me, Master! In order to retrieve the right Christmas, I'll do my best!"
+})
+data['Servant'].append({
+        'name': 'Astraea',
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '244.png',
+        'line': "I have come in response to your summons. The judgment of heaven, the justice of the stars is present. To all that is good in this world, I am called Astraea. As a master, are you prepared to be measured?"
+})
+data['Servant'].append({
+        'name': 'Artoria Pendragon (Ruler)',
+        'f_class': 'Ruler',
+        'claim': False,
+        'appear': True,
+        'pic_url': '245.png',
+        'line': "An undefeated dealer on top of being the owner of Casino Camelot, Artoria Ruler has manifested. …ah, no, while my Saint Graph is slightly changed, I was originally Artoria Pendragon of the Lancer class. Yes. These are clothes for summer. Also — actually, this is a costume of a rabbit, did you notice?"
+})
+
+#AVENGERS
+data['Servant'].append({
+        'name': 'Edmond Dantès',
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '246.png',
+        'line': "You called me! The reincarnation of vengence itself? Well precisely, I am the grudge of darkness I am Extra Class, Avenger!"
+})
+data['Servant'].append({
+        'name': "Jeanne d'Arc (Alter)",
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '247.png',
+        'line': "Servant, Avenger. Summoned upon your request.\n...What's with that look? Come on, here's the contract."
+})
+data['Servant'].append({
+        'name': 'Angra Mainyu',
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '248.png',
+        'line': "Hey there! The weakest Heroic Spirit Avenger, I responded immediately when I heard your call!"
+})
+data['Servant'].append({
+        'name': 'Gorgon',
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '249.png',
+        'line': "...Hmph. Avenger, Gorgon. Use me well. I shall use you well, too. Whose untimely end will be displayed first? It should be something to see."
+})
+data['Servant'].append({
+        'name': 'Hessian Lobo',
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '250.png',
+        'line': "■■■■■"
+})
+data['Servant'].append({
+        'name': 'Antonio Salieri',
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '251.png',
+        'line': "Am I, Death.\nI Must Kill The One That Is Loved By God.\nMy Name Is Salieri. No. Wrong. I Am, Who Am I..."
+})
+data['Servant'].append({
+        'name': 'Demon King Nobunaga',
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '252.png',
+        'line': "To make me an Avenger... Uhahaha! What a karmic thing. Very well! Make sure to engrave the Demon King of Sixth Heaven, Nobunaga’s lifestyle in your soul!"
+})
+data['Servant'].append({
+        'name': 'Astarte',
+        'f_class': 'Avenger',
+        'claim': False,
+        'appear': True,
+        'pic_url': '253.png',
+        'line': "Fear and revere me, human.\nI am the new governor of the universe and the one who carries out a vengeance against all humanity.\nA goddess among goddesses. Also known as Space Ishtar.\nHowever… What’s this place, a strategy room? Isn’t it strange? Why am I responding to your summon?"
+})
+
+#MOONCANCERS
+
+data['Servant'].append({
+        'name': 'BB',
+        'f_class': 'MoonCancer',
+        'claim': False,
+        'appear': True,
+        'pic_url': '254.png',
+        'line': "No world or barrier can hold me! I have finally come! The lovely butterfly of the moon...BB, the Moon Cancer, has been summoned! Well, this is just a temporary arrangement, but take good care of me, Seeenpaaai~"
+})
+data['Servant'].append({
+        'name': 'BB (Pele/Nyarlathotep)',
+        'f_class': 'MoonCancer',
+        'claim': False,
+        'appear': True,
+        'pic_url': '255.png',
+        'line': "To think that I would be summoned, so a human who doesn't know their place exists too, huh. By any chance, are you a little pain in the neck who wishes for the life of a piggy? Just kidding, the reward-like talk ends here. The Moon Cancer-class BB has come to grant your wish☆. Please, resign yourself to becoming my toy, okay, Se・n・pa・i?"
+})
+data['Servant'].append({
+        'name': 'Ganesha',
+        'f_class': 'MoonCancer',
+        'claim': False,
+        'appear': True,
+        'pic_url': '256.png',
+        'line': "...How admirable of you to summon me... I'll invite good fortune, I'll gift you riches and absolute tranquility... In other words, I am the Divine Spirit promising days off... Pseudo-Servant, Moon Cancer-class Ganesha. We will bring you wealth just by being here... so keep in mind not to send us out to the front line too much."
+})
+
+#FOREIGNERS
+
+data['Servant'].append({
+        'name': 'Abigail Williams',
+        'f_class': 'Foreigner',
+        'claim': False,
+        'appear': True,
+        'pic_url': '257.png',
+        'line': "Hello! I'm Abigail... Abigail Williams. I am a For... Foreigner... And you're my Master? You can call me Abby for short if you like. I'm sure we'll be good friends."
+})
+data['Servant'].append({
+        'name': 'Katsushika Hokusai',
+        'f_class': 'Foreigner',
+        'claim': False,
+        'appear': True,
+        'pic_url': '258.png',
+        'line': "Katsushika Hokusai. A humble painter. Are you the Master? Oh, a fairly picturesque personage. Well, I'll paint even without permission."
+})
+data['Servant'].append({
+        'name': 'Mysterious Heroine XX',
+        'f_class': 'Foreigner',
+        'claim': False,
+        'appear': True,
+        'pic_url': '259.png',
+        'line': "Hello, Master of Earth. I am Codename: XX. I have come to hunt down the other Sabers and Foreigners."
+})
+
+#ALTEREGOS
+
+data['Servant'].append({
+        'name': 'Meltryllis',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '260.png',
+        'line': "I'm the Alter Ego of pleasure, Meltryllis. I'd really rather not, but I suppose I'll form a contract with you. You should be honored, okay?"
+})
+data['Servant'].append({
+        'name': 'Passionlip',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '261.png',
+        'line': "...I'm Passionlip... the Alter Ego of love and hate... Um... I'm sorry if I hurt you..."
+})
+data['Servant'].append({
+        'name': 'Sessyoin Kiara',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '262.png',
+        'line': "Alter Ego, Sessyoin Kiara. I have come to answer the voices calling for salvation. But... hehe... I wonder about the sort of person who would summon a woman like me. I am the Devilish Bodhisattva who savors all living creatures, sentient or not.You have now choice now but to stay with me until the very end."
+})
+data['Servant'].append({
+        'name': 'Mecha Eli-chan',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '263.png',
+        'line': "I am Magus Aegis Elizabeth Channel. That is long, so Mecha Eli-chan is acceptable... Elizabeth is constantly presenting issues for you, but this time, I am the one imposing. I have accepted you as my pilot. Please, do not misuse me."
+})
+data['Servant'].append({
+        'name': 'Mecha Eli-chan Mk.II',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '264.png',
+        'line': "Alter Ego, Magus Aegis Elisabeth Channel II. Don't call me Mecha Eli-chan. Just call me Mk.II. Nice to meet you."
+})
+data['Servant'].append({
+        'name': 'Okita Souji (Alter)',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '265.png',
+        'line': "My name is Majin Okita Souji. I have manifested in response to your summons. Until this body's Saint Graph is smashed apart..., let's fight together."
+})
+data['Servant'].append({
+        'name': 'Sitonai',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '266.png',
+        'line': "My True Name is Sitonai. Since Sitonai's the one the outside appearance is based on the most. ────I'll be in your care, Master-san."
+})
+data['Servant'].append({
+        'name': 'Kingprotea',
+        'f_class': 'AlterEgo',
+        'claim': False,
+        'appear': True,
+        'pic_url': '267.png',
+        'line': "Master... Master... Alter Ego, Kingprotea... has answered your summons... Am I big? Or small...?"
+})
+
+
+#BEASTS
+
+data['Servant'].append({
+        'name': 'Tiamat',
+        'f_class': 'Beast',
+        'claim': False,
+        'appear': True,
+        'pic_url': '268.png',
+        'line': "WARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\n"
+})
+data['Servant'].append({
+        'name': 'Goetia',
+        'f_class': 'Beast',
+        'claim': False,
+        'appear': True,
+        'pic_url': '269.png',
+        'line': "WARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\n"
+})
+data['Servant'].append({
+        'name': 'Beast III/R',
+        'f_class': 'Beast',
+        'claim': False,
+        'appear': True,
+        'pic_url': '270.png',
+        'line': "WARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\n"
+})
+data['Servant'].append({
+        'name': 'Beast III/L',
+        'f_class': 'Beast',
+        'claim': False,
+        'appear': True,
+        'pic_url': '271.png',
+        'line': "WARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\n"
+})
+
+#Template
 #data['Servant'].append({
 #        'name': 'Artoria',
-#        'f_class': 'Caster',
+#        'f_class': 'Saber',
 #        'claim': False,
 #        'appear': True,
-#        'pic_url': '100.png',
+#        'pic_url': '000.png',
 #        'line': ""
 #})
 
-
-
-#create JSON
+#create JSON    
+#TODO: Dump in alphabetical Order
 with open('config.txt', 'w') as outfile:
     json.dump(data, outfile, indent = 4)
     

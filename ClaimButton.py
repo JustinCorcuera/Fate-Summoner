@@ -35,12 +35,12 @@ class ClaimButton():
         self.button.image = picture #deals with wierd Tkinter garbage collection
         
         self.button.place(height = 60, width = 140, x = 398, y = 240)
-        #23
+        
     def current_name(self, name, utility):
         global servant
         global util
         
-        #sets current Servant and current instance of the ConfigUtility   
+        #sets current Servant and current instance of the ConfigUtility (To consider: Does this really need to be a current instance? Why not new instance?) 
         util = utility
         servant = name
 
