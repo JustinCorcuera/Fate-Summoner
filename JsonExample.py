@@ -740,7 +740,7 @@ data['Servant'].append({
         'line': "The mighty Jaguar Warrior is here! I'm not a tiger, so don't call me one! You over there, don't ignore me! I'm surprisingly strong if you try using me!"
 })
 data['Servant'].append({
-        'name': 'Minamoto no Raikō (Lancer)',
+        'name': 'Minamoto no Raikou (Lancer)',
         'f_class': 'Lancer',
         'claim': False,
         'appear': True,
@@ -1070,13 +1070,13 @@ data['Servant'].append({
         'pic_url': '131.png',
         'line': "My, what an unexpected meeting... The atmosphere is different from usual? Fufu, is that so? At any rate, I think that me being a dangerous woman hasn’t changed. Be as careful as possible, Master."
 })
-data['Servant'].append({ #TODO: UPDATE LINE TO CORRECT
+data['Servant'].append({ 
         'name': 'Mandricardo',
         'f_class': 'Rider',
         'claim': False,
         'appear': True,
         'pic_url': '132.png',
-        'line': "The Servant who answered in response to your summoning. Rider, Mandricardo. Well, treat me properly."
+        'line': "Servant, answering your summoning. Nah, that ain't it. Rider, Mandricardo. Well, I'll be in your care, appropriately."
 })
 data['Servant'].append({
         'name': 'Europa',

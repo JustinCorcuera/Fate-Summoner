@@ -721,7 +721,7 @@
             "line": "The mighty Jaguar Warrior is here! I'm not a tiger, so don't call me one! You over there, don't ignore me! I'm surprisingly strong if you try using me!"
         },
         {
-            "name": "Minamoto no Raik\u014d (Lancer)",
+            "name": "Minamoto no Raikou (Lancer)",
             "f_class": "Lancer",
             "claim": false,
             "appear": true,
@@ -1054,7 +1054,7 @@
             "claim": false,
             "appear": true,
             "pic_url": "132.png",
-            "line": "The Servant who answered in response to your summoning. Rider, Mandricardo. Well, treat me properly."
+            "line": "Servant, answering your summoning. Nah, that ain't it. Rider, Mandricardo. Well, I'll be in your care, appropriately."
         },
         {
             "name": "Europa",
