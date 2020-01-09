@@ -2112,6 +2112,15 @@ data['Servant'].append({
         'pic_url': '259.png',
         'line': "Hello, Master of Earth. I am Codename: XX. I have come to hunt down the other Sabers and Foreigners."
 })
+data['Servant'].append({
+        'name': 'Yang Guifei',
+        'f_class': 'Foreigner',
+        'claim': False,
+        'appear': True,
+        'pic_url': '272.png',
+        'line': "Good morning~! I'm Yuuyuu, the Foreigner! Please, let me stay by your side for many years to come... Eh, ah, yes, that's right...I am Yang Guifei... Please treat me well... Even so, just don't call me a country-ruiner~"
+})
+
 
 #ALTEREGOS
 
