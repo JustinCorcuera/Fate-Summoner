@@ -277,6 +277,14 @@ data['Servant'].append({
         'pic_url': '033.png',
         'line': "Wahaha! WAHAHAHA! I arrived, I arrived, I've finally arrived! Class! Saber, Astolfo! I'm really really, really telling you I'm the most valuable Saber! If you like, I'll go where we have to go! Ehem. Anyway nice to meet you, dear Master!"
 })
+data['Servant'].append({
+        'name': 'Dioscuri',
+        'f_class': 'Saber',
+        'claim': False,
+        'appear': True,
+        'pic_url': '275.png',
+        'line': "Castor: Dioscuri, we have manifested... What, if it isn't a human. Pathetic! Die!\nPollux: It's fine if you don't die. We the Dioscuri will become your power."
+})
 
 #ARCHERS
 
@@ -560,6 +568,14 @@ data['Servant'].append({
         'pic_url': '068.png',
         'line': "Oh, what's this. Did you summon me? My name is Orion! The huntsman that feels like he has transcended the body of a human! Aaah… Ehem, I transcended humanity, but that aside, my desire is fellow humans. Eeer, In other words… Are there any girls that like me?"
 })
+data['Servant'].append({
+        'name': 'Sei Shounagon',
+        'f_class': 'Archer',
+        'claim': False,
+        'appear': True,
+        'pic_url': '273.png',
+        'line': "I have come to answer your summon. I am an Archer Servant, Sei Shonagon. While I have already put down my brush, this overabundant knowledge might still come in handy. Although, I won’t take any responsibilities if it turned out to be wrong, ohohohoho. Errr… This should do it for greetings, right? From now on, please take care of me, Chan-Masu."
+})
 
 #LANCERS
 
@@ -835,6 +851,22 @@ data['Servant'].append({
         'pic_url': '102.png',
         'line': "A shabbier summoning room than I thought... Well, it’s fine. Rejoice, the most beautiful swan on this star has come. Ah, but don’t talk to me familiarly. I’m a top-star. I want to avoid scandals. Let’s see…\n Could you call me Mysterious Alter Ego Λ?"
 })
+data['Servant'].append({
+        'name': 'Caenis',
+        'f_class': 'Lancer',
+        'claim': False,
+        'appear': True,
+        'pic_url': '276.png',
+        'line': "I'm Caenis. My True Name's Caenis and I'm a Divine Spirit.\n...Tch. Caenis, my ass. What a joke."
+})
+data['Servant'].append({
+        'name': ' Romulus-Quirinus',
+        'f_class': 'Lancer',
+        'claim': False,
+        'appear': True,
+        'pic_url': '277.png',
+        'line': "Who has called me forth? Ah I see, it's you. Understood. Here is that kind of timeline I see. With that, I will say this...\nI am Romulus-Quirinus! I wield my arms like spears of light, I am a servant of humanity!"
+})
 
 #RIDERS
 
@@ -1085,6 +1117,14 @@ data['Servant'].append({
         'appear': True,
         'pic_url': '133.png',
         'line': "I am Europa. Nice to meet you. I am... umm... what was it... Rai... Raiden...! That's right, Raiden! I have been summoned in the Raiden cla⁠⁠— Yes Mm... It's wrong? Not Raiden but Rider? ...Oh dear. Ehmm. Once again. I am Europa, summoned in the Rider class.I am one of the Chief-God Zeus's consorts. It's nice to meet you, Master."
+})
+data['Servant'].append({
+        'name': 'Odysseus',
+        'f_class': 'Rider',
+        'claim': False,
+        'appear': True,
+        'pic_url': '274.png',
+        'line': "———— True Name Odysseus, I have manifested. In your great adventure of saving Pan-Human History, I'll become some of your power. How heavy and painful one step to advance forwards is…… I know a bit about that."
 })
 
 #CASTERS
@@ -1934,7 +1974,7 @@ data['Servant'].append({
         'claim': False,
         'appear': True,
         'pic_url': '238.png',
-        'line': "Servant Ruler, Jeanne d'Arc.I'm really glad to meet you!"
+        'line': "Servant Ruler, Jeanne d'Arc. I'm really glad to meet you!"
 })
 data['Servant'].append({
         'name': 'Amakusa Shirou',
