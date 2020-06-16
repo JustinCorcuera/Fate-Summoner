@@ -841,12 +841,20 @@
             "line": "I'm Caenis. My True Name's Caenis and I'm a Divine Spirit.\n...Tch. Caenis, my ass. What a joke."
         },
         {
-            "name": " Romulus-Quirinus",
+            "name": "Romulus-Quirinus",
             "f_class": "Lancer",
             "claim": false,
             "appear": true,
             "pic_url": "277.png",
             "line": "Who has called me forth? Ah I see, it's you. Understood. Here is that kind of timeline I see. With that, I will say this...\nI am Romulus-Quirinus! I wield my arms like spears of light, I am a servant of humanity!"
+        },
+        {
+            "name": "Utsumi Erice",
+            "f_class": "Lancer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "279.png",
+            "line": "Utsumi Erice\u2026 They call me something like \u201cGrim Reaper\u201d.\nThat's right\u2026 I have to kill them. I have to kill more, more evil Servants."
         },
         {
             "name": "Medusa",
@@ -1937,6 +1945,14 @@
             "line": "I did it! Berserker, Musashi Miyamoto, has been summoned here! But really, is it finally my swimsuit debut...? Fufu, I was interested on it since long ago so I\u2019m really lucky! I\u2019ll count on you for this one summer adventure, Master!"
         },
         {
+            "name": "Kijyo K\u014dy\u014d",
+            "f_class": "Berserker",
+            "claim": false,
+            "appear": true,
+            "pic_url": "280.png",
+            "line": "Gagagaaah gau. Gagaaaaaah. Uuh, uuuuuuuuh\u2026"
+        },
+        {
             "name": "Jeanne d'Arc",
             "f_class": "Ruler",
             "claim": false,
@@ -2119,6 +2135,14 @@
             "appear": true,
             "pic_url": "272.png",
             "line": "Good morning~! I'm Yuuyuu, the Foreigner! Please, let me stay by your side for many years to come... Eh, ah, yes, that's right...I am Yang Guifei... Please treat me well... Even so, just don't call me a country-ruiner~"
+        },
+        {
+            "name": "Voyager",
+            "f_class": "Foreigner",
+            "claim": false,
+            "appear": true,
+            "pic_url": "278.png",
+            "line": "I, ask, you. Are, you, worthy, of, being, my, Master?"
         },
         {
             "name": "Meltryllis",

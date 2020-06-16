@@ -860,12 +860,20 @@ data['Servant'].append({
         'line': "I'm Caenis. My True Name's Caenis and I'm a Divine Spirit.\n...Tch. Caenis, my ass. What a joke."
 })
 data['Servant'].append({
-        'name': ' Romulus-Quirinus',
+        'name': 'Romulus-Quirinus',
         'f_class': 'Lancer',
         'claim': False,
         'appear': True,
         'pic_url': '277.png',
         'line': "Who has called me forth? Ah I see, it's you. Understood. Here is that kind of timeline I see. With that, I will say this...\nI am Romulus-Quirinus! I wield my arms like spears of light, I am a servant of humanity!"
+})
+data['Servant'].append({
+        'name': 'Utsumi Erice',
+        'f_class': 'Lancer',
+        'claim': False,
+        'appear': True,
+        'pic_url': '279.png',
+        'line': "Utsumi Erice… They call me something like “Grim Reaper”.\nThat's right… I have to kill them. I have to kill more, more evil Servants."
 })
 
 #RIDERS
@@ -1966,6 +1974,14 @@ data['Servant'].append({
         'pic_url': '237.png',
         'line': "I did it! Berserker, Musashi Miyamoto, has been summoned here! But really, is it finally my swimsuit debut...? Fufu, I was interested on it since long ago so I’m really lucky! I’ll count on you for this one summer adventure, Master!"
 })
+data['Servant'].append({
+        'name': 'Kijyo Kōyō',
+        'f_class': 'Berserker',
+        'claim': False,
+        'appear': True,
+        'pic_url': '280.png',
+        'line': "Gagagaaah gau. Gagaaaaaah. Uuh, uuuuuuuuh…"
+})
 
 #RULERS
 data['Servant'].append({
@@ -2159,6 +2175,14 @@ data['Servant'].append({
         'appear': True,
         'pic_url': '272.png',
         'line': "Good morning~! I'm Yuuyuu, the Foreigner! Please, let me stay by your side for many years to come... Eh, ah, yes, that's right...I am Yang Guifei... Please treat me well... Even so, just don't call me a country-ruiner~"
+})
+data['Servant'].append({
+        'name': 'Voyager',
+        'f_class': 'Foreigner',
+        'claim': False,
+        'appear': True,
+        'pic_url': '278.png',
+        'line': "I, ask, you. Are, you, worthy, of, being, my, Master?"
 })
 
 
