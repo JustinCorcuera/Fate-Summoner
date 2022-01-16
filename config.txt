@@ -273,6 +273,70 @@
             "line": "Castor: Dioscuri, we have manifested... What, if it isn't a human. Pathetic! Die!\nPollux: It's fine if you don't die. We the Dioscuri will become your power."
         },
         {
+            "name": "Tomoe Gozen (Saber)",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "281.png",
+            "line": "Tomoe Gozen, has arrived in a summer Spirit Origin. Hah! The VR. So that Master can freely enjoy this summer vacations, Tomoe intends to serve with all her strength."
+        },
+        {
+            "name": "Sait\u014d Hajime",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "282.png",
+            "line": "I\u2019m the captain of the Shinsengumi\u2019s third division, Sait\u014d Hajime. Put some affection and call me Hajime-chan. No, better not. So, you\u2019re Master-chan. Heh, don\u2019t you have a good expression. Ah, right right, I\u2019m not good with formalities, so I\u2019ll count on you like that."
+        },
+        {
+            "name": "Watanabe no Tsuna",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "283.png",
+            "line": "...Saber, Watanabe no Tsuna. I have nothing to say in particular. If you're looking to slay oni and demons, then you're looking at the right person. I'm not very good at cutting down people, so please forgive me on that front."
+        },
+        {
+            "name": "Ibuki D\u014dji",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "284.png",
+            "line": "I am Ibuki-douji. Are you what they call a Master? I see. If you do not wish to die then it is in your best interest to humor me. My self after molting will not feel like playing around with a human as much as my current form does, after all."
+        },
+        {
+            "name": "Karna (Santa)",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "285.png",
+            "line": "My name is Karna. My Class is Santa, however, it\u2019s also possible for me to be a Boxer as well. Though saying that, I\u2019ve barely passed the gates of being a Santa. From here on, I\u2019ll train hard so that I can grow\u2015 so that I can become a full-fledged Santa. I\u2019ll be counting on you."
+        },
+        {
+            "name": "Senji Muramasa",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "286.png",
+            "line": "Saber, Senji Muramasa. I've answered to your summons. Although I'm only a blacksmith, as a Pseudo-Servant I should be capable enough by imitating samurai's. Hm? What's with that look? It's a face that says 'I-know-how-it-is' while still being surprised...maybe I'm showing up just a bit too early...?"
+        },
+        {
+            "name": "Barghest",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "287.png",
+            "line": "Faerie Knight Gawain, will now enroll in your division! What's with that face? Is my face that strange? Hm? It's not me, but my name what is strange? \u2026I-I see. Well, in that case it's fine, but\u2026 (Could it be\u2026 that the real Sir Gawain is here\u2026?)"
+        },
+        {
+            "name": "Okita S\u014dji (Alter)(Saber)",
+            "f_class": "Saber",
+            "claim": false,
+            "appear": true,
+            "pic_url": "288.png",
+            "line": "Okita: W-What on earth is this\u2026\nRengoku: \u2026What kind of joke is this?\nOkita: Are you Rengoku, by any chance? You've become rather adorable.\nRengoku: No no, something like adorable\u2026 What's with this? Even my voice kinda sounds just like my Lord's?!\nOkita: Speaking of which, I feel like I've gotten a bit smaller too\u2026 It's fine, I look forward to working with both you and Rengoku, Master.\nRengoku: Like hell this is fine! My Lord, I have a feeling your personality has changed somehow.\nOkita: Is that so? Now that you mention it, it doesn't feel like you're wrong.\nRengoku: Oh, darn it. I'm not sure what's going on. But either way, my Lord's Master, I'll be counting on you in many ways. For real!"
+        },
+        {
             "name": "EMIYA",
             "f_class": "Archer",
             "claim": false,
@@ -559,6 +623,46 @@
             "appear": true,
             "pic_url": "273.png",
             "line": "I have come to answer your summon. I am an Archer Servant, Sei Shonagon. While I have already put down my brush, this overabundant knowledge might still come in handy. Although, I won\u2019t take any responsibilities if it turned out to be wrong, ohohohoho. Errr\u2026 This should do it for greetings, right? From now on, please take care of me, Chan-Masu."
+        },
+        {
+            "name": "Illyasviel von Einzbern (Archer)",
+            "f_class": "Archer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "289.png",
+            "line": "Illya: It\u2019s the sea! I\u2019m Illya! I\u2019m an Archer! I\u2019m an Archer! I brought a swimsuit! So again, it\u2019s the sea! \u2026 Eh? It\u2019s not the sea? A lake? Hm, it doesn\u2019t matter as long as I can swim! Let\u2019s make a lot of funny memories of the summer holidays!\nRuby: This time Illya-san didn\u2019t know that this would be the beginning of a tragedy\u2026"
+        },
+        {
+            "name": "Oda Nobukatsu",
+            "f_class": "Archer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "290.png",
+            "line": "Young brother of Oda Nobunaga, the head of the Oda clan, Oda Nobukatsu, has arrived in the class of Archer. Right right, I'm telling you, I, Nobukatsu, don't feel like obeying anyone but Sister so bear it in mind. By the way, where's Sister?"
+        },
+        {
+            "name": "Baobhan Sith",
+            "f_class": "Archer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "291.png",
+            "line": "Servant, Archer. Fairy Knight Tristan, I arrived to answer your summons. I promise to play a role that won't bring shame to the name of knights. \u2026Just kidding, kyahahahahaha! What's wrong with you, don't you know me yet? You're so ridiculous I like you! Eh, even so, let's get along, okay? I'm an ally of justice, you know?"
+        },
+        {
+            "name": "Anastasia & Viy (Archer)",
+            "f_class": "Archer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "292.png",
+            "line": "Aloha! Ahem... I have answered your summoning call. I'm Anastasia. I've had a change of clothes, since it's summer. Viy has changed too, so we're all ready for summer. Now, let's have some fun!"
+        },
+        {
+            "name": "Zenobia",
+            "f_class": "Archer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "293.png",
+            "line": "Aloha! Ahem... I have answered your summoning call. I'm Anastasia. I've had a change of clothes, since it's summer. Viy has changed too, so we're all ready for summer. Now, let's have some fun!"
         },
         {
             "name": "C\u00fa Chulainn",
@@ -857,6 +961,46 @@
             "line": "Utsumi Erice\u2026 They call me something like \u201cGrim Reaper\u201d.\nThat's right\u2026 I have to kill them. I have to kill more, more evil Servants."
         },
         {
+            "name": "Consort Yu (Lancer)",
+            "f_class": "Lancer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "294.png",
+            "line": "I\u2019m telling you, this shape isn\u2019t because I\u2019m festive. It\u2019s because Xiang Yu-sama wished for me to fully enjoy summer. In other words, it\u2019s a swimsuit out of love. Understand? Getting in my way is complaining about Xiang Yu-sama. If there\u2019s a guy like that I\u2019ll mercilessly stab them, so best regards."
+        },
+        {
+            "name": "Vritra",
+            "f_class": "Lancer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "295.png",
+            "line": "I'm Vritra. Seriously, what does a human want this snake to do\u2026? I'm a demon who only moves of their own desire. You better not think you can tame me."
+        },
+        {
+            "name": "M\u00e9lusine",
+            "f_class": "Lancer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "296.png",
+            "line": "Servant, Lancer. Fairy Knight Lancelot, has arrived in response to your summons. \u2026It seems you don't have any ties with me yet. Well, you can learn about me, little by little."
+        },
+        {
+            "name": "Percival",
+            "f_class": "Lancer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "297.png",
+            "line": "Second Seat of the Round Table, Knight Percival. I have hereby come to this world. Along with the other Holy Lance, I shall become your power. Master."
+        },
+        {
+            "name": "Sakamoto Ry\u014dma (Lancer)",
+            "f_class": "Lancer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "298.png",
+            "line": "Ryouma: Lancer, Sakamoto Ryouma. I've come in response to your summons.\nOryou: And I'm his partner, Oryou-san. Nice to meet you, human!\nRyouma: So I'm a Lancer, huh? And this spear... I see, it looks like the time for me to hit the open seas has come.\nOryou: That's right! The time has come!\nRyouma: Yeah, let's go together, towards the oceans of Wadatsumi."
+        },
+        {
             "name": "Medusa",
             "f_class": "Rider",
             "claim": false,
@@ -1111,6 +1255,62 @@
             "appear": true,
             "pic_url": "274.png",
             "line": "\u2014\u2014\u2014\u2014 True Name Odysseus, I have manifested. In your great adventure of saving Pan-Human History, I'll become some of your power. How heavy and painful one step to advance forwards is\u2026\u2026 I know a bit about that."
+        },
+        {
+            "name": "Murasaki Shikibu (Rider)",
+            "f_class": "Rider",
+            "claim": false,
+            "appear": true,
+            "pic_url": "299.png",
+            "line": "Servant, Murasaki Shikibu. In these clothes I've changed into the Rider class. This is a summer memory I'd like to write down as soon as I can. Please."
+        },
+        {
+            "name": "Nemo",
+            "f_class": "Rider",
+            "claim": false,
+            "appear": true,
+            "pic_url": "300.png",
+            "line": "I am the son of Amphitrite and the Sea God Poseidon, as well as the 'Nobody' who helms the submarine Nautilus --- I am a complex man, but you may call me Captain Nemo. Good to meet you, Master."
+        },
+        {
+            "name": "Habetrot",
+            "f_class": "Rider",
+            "claim": false,
+            "appear": true,
+            "pic_url": "301.png",
+            "line": "Is this the place called Chaldea? Eeh! Since they told me it was a mage's workshop, I imagined it as a scaaary cavern, but it's pretty, stylish, and cool! Then I wouldn't mind staying here a long time\uff5e. Ah, I'm Habetrot. Ally of brides, friend of tailors, and the fairy that brings happy endings! \u2026But. My Noble Phantasm has become big and tough for some reason\u2026. Do you guys know why?"
+        },
+        {
+            "name": "Caenis (Rider)",
+            "f_class": "Rider",
+            "claim": false,
+            "appear": true,
+            "pic_url": "302.png",
+            "line": "Divine Spirit Caenis, with a Rider Spirit Origin. Ah? My appearance? Well if you call it a swimsuit then I guess it indeed is, but mine's a security staff member's swumsuit.\n... It's necessary though, right?"
+        },
+        {
+            "name": "Elizabeth B\u00e1thory (Cinderella)",
+            "f_class": "Rider",
+            "claim": false,
+            "appear": true,
+            "pic_url": "303.png",
+            "line": "Now, the beginning of the legend ~ \u266a\n The birth of Elizabeth Cinderella ~ \u266a\n Celebrate ~ Laugh ~ \u266a\n Come on, Master, take that hand ~ \u266a\n Hmm? Don't go home for a while! There is still more!"
+        },
+        {
+            "name": "Tai Gong Wang",
+            "f_class": "Rider",
+            "claim": false,
+            "appear": true,
+            "pic_url": "304.png",
+            "line": "I'm hereby manifested in a Rider Saint Graph. My True Name is Taigong Wang! Oh, but I don't mind if you prefer calling me Lu Shang, Jiang Ziya, or Jiang Taigong. But, man, what a shame. If I were summoned as a Caster, I'm sure I could have made it Grand Caster."
+        },
+        {
+            "name": "Dobrynya Nikitich",
+            "f_class": "Rider",
+            "claim": false,
+            "appear": true,
+            "pic_url": "305.png",
+            "line": "I'm a rider, Dobrynya Nikitich. Call me Dobrynya or Nikitich, whatever you like. By the way, I'm curious ... What kind of job is a rider?"
         },
         {
             "name": "Medea",
@@ -1417,6 +1617,46 @@
             "line": "Servant, Caster. My full name is Chen Gong, and my courtesy name is Gongtai. Being summoned like this is part of destiny. Let us associate for many years to come."
         },
         {
+            "name": "Artoria (Caster)",
+            "f_class": "Caster",
+            "claim": false,
+            "appear": true,
+            "pic_url": "306.png",
+            "line": "Hello. I am called Caster Artoria. To be honest, I don't really understand what it means to be a Servant, but if you say I will be of help with such a thing like magecraft, then by all means, please make use of me. Eh? Magecraft is not 'such a thing'? Uwah, is this world in serious trouble?"
+        },
+        {
+            "name": "Miss Crane",
+            "f_class": "Caster",
+            "claim": false,
+            "appear": true,
+            "pic_url": "307.png",
+            "line": "Please forgive me. I'm the crane that you saved the other day. Fufu, maybe revealing oneself from the beginning is yet another amusement. I, Miss Crane, shall wholeheartedly weave in the loom, offer garments of dazzling beauty, and reward you with inexhaustible loyalty."
+        },
+        {
+            "name": "Charlotte Corday",
+            "f_class": "Caster",
+            "claim": false,
+            "appear": true,
+            "pic_url": "308.png",
+            "line": "Yay! I got summoned! Here's your Servant, Charlotte Corday! This swimsuit's a bit embarrassing, but I think it's high appeal glosses over that!"
+        },
+        {
+            "name": "Izumo no Okuni",
+            "f_class": "Caster",
+            "claim": false,
+            "appear": true,
+            "pic_url": "309.png",
+            "line": "Caster, Izumo no Okuni, I'm here. Please enjoy the sound of Izumo no Okuni to your heart's content. Thank you for your continued support."
+        },
+        {
+            "name": "Martha (Santa)",
+            "f_class": "Caster",
+            "claim": false,
+            "appear": true,
+            "pic_url": "310.png",
+            "line": "I'm Martha. It's not Santa Marthaa \u2500\u2500\u2500 isn't it? My specialty is cooking and sewing .... Combat? What's that? Well, anyway. Let's have a fun Christmas, right Master?"
+        },
+        {
             "name": "Sasaki Kojirou",
             "f_class": "Assassin",
             "claim": false,
@@ -1697,6 +1937,22 @@
             "line": "Thank you for waiting, Master! The invincible Okita-san in a swimsuit has come! With my sure-kill Jet Tennen Rishin-ryuu I'll monopolize the topic of the beach! Now, let's fly together to the great sky of summer! Shinsengumi in the Sky!"
         },
         {
+            "name": "Kiichi H\u014dgen",
+            "f_class": "Assassin",
+            "claim": false,
+            "appear": true,
+            "pic_url": "311.png",
+            "line": "Well, now that we're having a moment of calm, I guess I could formally introduce myself. Ahem... I am the one and only Kiichi Hougen! Teacher of all lands and eras, and Great Teng- No, I'll save this part for later. Well, that's about it. Nice to meet you!"
+        },
+        {
+            "name": "Koyanskaya of Light",
+            "f_class": "Assassin",
+            "claim": false,
+            "appear": true,
+            "pic_url": "312.png",
+            "line": "Thank you very much for this summon\u2661 I am Tamamovitch Koyanskaya/Light, representative of NFF, provider of all of humanity's needs. Infiltration, manufacturing, negotiation, marketing, anything. Please accept my humble visit. Think of me as simply a hypercompetent sexy secretary bunny! Don't you love to fight fire with fire?"
+        },
+        {
             "name": "Heracles",
             "f_class": "Berserker",
             "claim": false,
@@ -1953,6 +2209,38 @@
             "line": "Gagagaaah gau. Gagaaaaaah. Uuh, uuuuuuuuh\u2026"
         },
         {
+            "name": "Brynhildr (Berserker)",
+            "f_class": "Berserker",
+            "claim": false,
+            "appear": true,
+            "pic_url": "313.png",
+            "line": "I\u2019m Brynhildr. Err\u2026 Since it\u2019s a Spirit Origin for summer\u2026 I\u2019m a Berserker-class different from usual. Nice to make your acquaintance, Master."
+        },
+        {
+            "name": "Galatea",
+            "f_class": "Berserker",
+            "claim": false,
+            "appear": true,
+            "pic_url": "314.png",
+            "line": "Nice to meet you, my name is Galatea\u2026\u2026Yeah, I know. You must have had the same love with King Pygmalion if you were able to summon me. Let us both wholeheartedly wield the chisel together until we achieve true love\u2500\u2500\u2500"
+        },
+        {
+            "name": "Morgan",
+            "f_class": "Berserker",
+            "claim": false,
+            "appear": true,
+            "pic_url": "315.png",
+            "line": "So you have summoned me\u2026 Berserker, Morgan. I'm the queen of the Fae Nation Britain, and the one who continues cursing Pan-Human History. If you don't have a problem with that, I'll lend you my power as a Servant. It's an unchangeable fact that I'm a queen. I expect you to work as my retainer. Or perhaps do you want me to treat you as my husband?"
+        },
+        {
+            "name": "Sei Sh\u014dnagon (Berserker)",
+            "f_class": "Berserker",
+            "claim": false,
+            "appear": true,
+            "pic_url": "316.png",
+            "line": "Hey. Look who it is. Chan-Mas. What're you doing? Wanna check the convenience store with me? Wait, what...? A seasonal outfit, in a different Class?! Hm, m, hm. I see this inevitable day has finally come... It is with great honor that I, Sei Shounagon, officially named Nagiko, accept this opportunity to finally display my hidden true power to you. My new Class is, needless to say... Wait, what, Berserker? Why though?"
+        },
+        {
             "name": "Jeanne d'Arc",
             "f_class": "Ruler",
             "claim": false,
@@ -2015,6 +2303,30 @@
             "appear": true,
             "pic_url": "245.png",
             "line": "An undefeated dealer on top of being the owner of Casino Camelot, Artoria Ruler has manifested. \u2026ah, no, while my Saint Graph is slightly changed, I was originally Artoria Pendragon of the Lancer class. Yes. These are clothes for summer. Also \u2014 actually, this is a costume of a rabbit, did you notice?"
+        },
+        {
+            "name": "Himiko",
+            "f_class": "Ruler",
+            "claim": false,
+            "appear": true,
+            "pic_url": "317.png",
+            "line": "I am the queen of Yamataikoku, Himiko. The mediator of the distant world over the seas and the shrine maiden of light. May my oracle open your path\u2026 Eh? I don\u2019t look the part? Ri~ght. Well, can\u2019t be helped with these looks.\n\u2026 That\u2019s what you\u2019re thinking, but I predict that you\u2019ll soon be all like 'Himiko-sama was too awesome!'"
+        },
+        {
+            "name": "Amor (Caren)",
+            "f_class": "Ruler",
+            "claim": false,
+            "appear": true,
+            "pic_url": "318.png",
+            "line": "Servant Ruler. The Divine Spirit Amor, Caren C Hortensia, has arrived answering your summons. Fufu. So this is the rumored Chaldea. It's quite wonderful it's so lively. Whether I'm fit or not for the preaching of love\u2026 Look forwards to it."
+        },
+        {
+            "name": "Leonardo Da Vinci (Ruler)",
+            "f_class": "Ruler",
+            "claim": false,
+            "appear": true,
+            "pic_url": "319.png",
+            "line": "So, I'm Da Vinci-chan after splendidly changing my Spirit Origin. Hm? I'm as cheerful as always, you say? Yep yep, that's right. After all it's a summer of adventures! That's why! My chest's bursting with anticipation. Let's have a fun summer vacation, Master!"
         },
         {
             "name": "Edmond Dant\u00e8s",
@@ -2081,6 +2393,30 @@
             "line": "Fear and revere me, human.\nI am the new governor of the universe and the one who carries out a vengeance against all humanity.\nA goddess among goddesses. Also known as Space Ishtar.\nHowever\u2026 What\u2019s this place, a strategy room? Isn\u2019t it strange? Why am I responding to your summon?"
         },
         {
+            "name": "Taira no Kagekiyo",
+            "f_class": "Avenger",
+            "claim": false,
+            "appear": true,
+            "pic_url": "320.png",
+            "line": "\u2500\u2500\u2500 Taira no Kagekiyo has arrived. Now, inform Kagekiyo. Where are the Genji who must be annihilated?"
+        },
+        {
+            "name": "Kama (Avenger)",
+            "f_class": "Avenger",
+            "claim": false,
+            "appear": true,
+            "pic_url": "321.png",
+            "line": "Fufufu\u2026 I'll make you regret underestimating me. As I put on a swimsuit, I made the adjustments to push out another aspect, and\u2026 Now I may not be Kama anymore. In other words, the Demon King of Summer Mara, makes her appearance! Yes! Eh, I didn't really change? How weird\u2026"
+        },
+        {
+            "name": "Mysterious Ranmaru X",
+            "f_class": "Avenger",
+            "claim": false,
+            "appear": true,
+            "pic_url": "322.png",
+            "line": "Nice to meet you! I am Mysterious Ranmaru X, the best of the best out of all the Ranmarus, the only one allowed to have this title! I shall make sure that you are worthy of being Ranmaru\u2019s master with these eyes!"
+        },
+        {
             "name": "BB",
             "f_class": "MoonCancer",
             "claim": false,
@@ -2103,6 +2439,14 @@
             "appear": true,
             "pic_url": "256.png",
             "line": "...How admirable of you to summon me... I'll invite good fortune, I'll gift you riches and absolute tranquility... In other words, I am the Divine Spirit promising days off... Pseudo-Servant, Moon Cancer-class Ganesha. We will bring you wealth just by being here... so keep in mind not to send us out to the front line too much."
+        },
+        {
+            "name": "Sessh\u014din Kiara (Moon Cancer)",
+            "f_class": "MoonCancer",
+            "claim": false,
+            "appear": true,
+            "pic_url": "323.png",
+            "line": "Hello, Master. I am called Sessh\u014din Kiara, a pseudo-Servant who has taken on the position of Yaobikuni. My class is\u2026\u2026 my! Moon Cancer! A very unusual Class isn't it? I heard that it played a big role in the Moon's Holy Grail War or whatnot...... Ahh, I'm worried whether it would suit a woman like me..... Although, this must also be the work of fate. To meet Master's expectations, I will be a Cancer to the best of my abilities."
         },
         {
             "name": "Abigail Williams",
@@ -2143,6 +2487,46 @@
             "appear": true,
             "pic_url": "278.png",
             "line": "I, ask, you. Are, you, worthy, of, being, my, Master?"
+        },
+        {
+            "name": "Abigail Williams (Summer)",
+            "f_class": "Foreigner",
+            "claim": false,
+            "appear": true,
+            "pic_url": "324.png",
+            "line": "Good day, Master. Foreigner, Abigail Williams. \u2026 Are you frightened? Girls these age are like a chrysalis whose ethos hasn\u2019t been determined. Please accept me, who constantly changes like the eyes of a cat. Let\u2019s make beautiful memories together\u2026"
+        },
+        {
+            "name": "Van Gogh",
+            "f_class": "Foreigner",
+            "claim": false,
+            "appear": true,
+            "pic_url": "325.png",
+            "line": "Servant: Foreigner. As you can see, I\u2019m Gogh\u2026 Let\u2019s repaint the world together. J-Just kidding, ufufu, ehehe\u2026"
+        },
+        {
+            "name": "Mysterious Idol X (Alter)",
+            "f_class": "Foreigner",
+            "claim": false,
+            "appear": true,
+            "pic_url": "326.png",
+            "line": "Mysterious idol X. Alter... The class is Saber... Foreigner. I mean, it's an idol. It's on sale for all universes with the Alteractor fully open and the maximum output of the idler."
+        },
+        {
+            "name": "Jacques de Molay",
+            "f_class": "Foreigner",
+            "claim": false,
+            "appear": true,
+            "pic_url": "327.png",
+            "line": "Leaking my true intentions uncontained, I'm leaky-weaky Molay~\u266a The last Grandmaster of the Knights Templar! ...Even if I say that, after having various responsibilities foisted on me, they gave me all sorts of stigmas and burned me at the stake in the end. It's inevitable to be made 'innocent' from all that muddy and murky heresy like this. Nevertheless, now that I have been summoned, we are Master and Servant, client and professional. Foreigner, I am Jacques de Molay, willing to take on the role of a shield that shall protect you. Ufufu."
+        },
+        {
+            "name": "Koyanskaya of Darkness",
+            "f_class": "Foreigner",
+            "claim": false,
+            "appear": true,
+            "pic_url": "328.png",
+            "line": "Hello, thanks for dialing the NFF Call Center\u2661 Servant, Foreigner, Tamamovitch Koyanskaya. I heard your request and am taking up the post. You humans are practically my playthings. I'll do everything in my power to preserve you. Besides, being earnest about driving the human race to extinction is not a good look, is it?"
         },
         {
             "name": "Meltryllis",
@@ -2209,6 +2593,30 @@
             "line": "Master... Master... Alter Ego, Kingprotea... has answered your summons... Am I big? Or small...?"
         },
         {
+            "name": "Ashiya D\u014dman",
+            "f_class": "AlterEgo",
+            "claim": false,
+            "appear": true,
+            "pic_url": "329.png",
+            "line": "This is the first time we see each other! I'm a bonze and onmyouji whose True Name is Ashiya D\u014dman\u2015\u2015\u2015 My class is! Alter Ego!\nWell?\nAlter Ego. Not Caster?\n\u2026Now that was a bizarre thing to happen.\nIn any case. Hereafter, I shall be in your care.\nMaster."
+        },
+        {
+            "name": "Oberon",
+            "f_class": "Pretender",
+            "claim": false,
+            "appear": true,
+            "pic_url": "331.png",
+            "line": "Whoa, the introductions, introducions. I'm Oberon. The Fairy King Oberon. As you can see, I'm a showy king but calming down the place is my only forte. Though I can only be a little help I'll try to be helpful to you. \u2015\u2015\u2015 Nice to meet you."
+        },
+        {
+            "name": "Hephaestion",
+            "f_class": "Pretender",
+            "claim": false,
+            "appear": true,
+            "pic_url": "332.png",
+            "line": "I have answered your summons. I am Hephaestion, or someone pretending to be him, rather. Pretender Class...but I'd prefer you call me Faker, if you don't mind."
+        },
+        {
             "name": "Tiamat",
             "f_class": "Beast",
             "claim": false,
@@ -2238,6 +2646,14 @@
             "claim": false,
             "appear": true,
             "pic_url": "271.png",
+            "line": "WARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\n"
+        },
+        {
+            "name": "Beast IV",
+            "f_class": "Beast",
+            "claim": false,
+            "appear": true,
+            "pic_url": "330.png",
             "line": "WARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\nWARNING WARNING WARNING WARNING WARNING\n"
         }
     ]
